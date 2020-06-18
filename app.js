@@ -688,4 +688,221 @@
 
 // --------------------- CHAPTER NO: (14-16)--------------------
 
-//q1
+//TASK # 01
+// var arr=[];
+
+
+//TASK # 02
+// var arr={ };
+
+
+//TASK # 03
+// var arr=["string1","string2","string3"];
+
+
+//TASK # 04
+// var arr=[1,4,7,10];
+
+
+//TASK # 05
+// var arr=[1,0,0,1];
+
+
+//TASK # 06
+// var arr=[1,"str","try",0,true,40];
+
+
+//TASK # 07
+// var arr=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+// for(let i=0;i<arr.length;i++)
+// 	{	document.write(arr[i]+"<br>")	}
+
+
+//TASK # 08
+// var name=["Minhaj","Tanveer","Iqra"];
+// var score=[380,430,360];
+// for(let i=0 ;i<3;i++){
+// document.write("score of "+name[i]+" is "+score[i]+".percentage "+
+// ((score[i]/500)*100)+"%<br>");
+// }
+
+
+
+//TASK # 09
+
+// a.
+// var color=["red","orange","yellow","blue","green"];
+// var add1=prompt("which color you want to add in the beginning.");
+// color.unshift(add1);
+// document.write("<br>"+color);
+
+// b.
+// var add2=prompt("which color you want to add at the end.");
+// color.push(add2);
+// document.write("<br>"+color);
+
+// c.
+// color.unshift("black","pruple");
+// document.write("<br>"+color);
+
+// d.
+// color.shift();
+// document.write("<br>"+color);
+
+// e.
+// color.pop();
+// document.write("<br>"+color);
+
+// f.
+// var index=prompt("enter the index number where you want to add the color:");
+// var indexcolor=prompt("enter the color name");
+// color.splice(Number(index),0,indexcolor);
+// document.write("<br>"+color);
+
+// g.
+// var index1=prompt("enter the index number form where you want to delete the colors:");
+// var del=prompt("enter the no. of colors you want to delete");
+// color.splice(Number(index1),del);
+// document.write("<br>"+color);
+
+
+//TASK # 10
+// var arr = [120,430,220,10];
+// document.write(arr.sort());
+
+
+
+//TASK # 11
+// var cities=["karachi","Lahore","Islamabad","Quetta","Peshawar"];
+// document.write("selected cities are :" +cities.slice(0,2));
+
+
+//TASK # 12
+// var arr = ["This "," is "," my "," cat"];
+// var str=arr.join("")
+// document.write(str);
+
+
+//TASK # 13
+// var arr=[];
+// arr.push("keyboard");
+// arr.push("mouse");
+// arr.push("printer");
+// arr.push("monitor");
+// document.write(arr);
+
+
+//TASK # 14
+// var arr=[];
+// arr.unshift("keyboard");
+// arr.unshift("mouse");
+// arr.unshift("printer");
+// arr.unshift("monitor");
+// document.write(arr);
+
+
+//TASK # 15
+// var arr=["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// for(let i=0;i<arr.length;i++)		{
+// document.write(arr[i] +"<br>");	}
+
+// xxxxx---------------------xxxxxxx---------------------------xxxxx
+
+
+
+
+
+
+// --------------------- CHAPTER NO: (17-20)--------------------
+
+//TASK # 01
+// var arr=[[]];
+
+
+//TASK # 02
+// var arr=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+
+//TASK # 03
+// for(let i=1;i<=10;i++)
+// {document.write(i+"<br>");}
+
+
+//TASK # 04
+// var num=prompt("enter table number");
+// var len=prompt("enter table length");
+// for(let i=1;i<=len;i++)
+// {	document.write(num + "*" + i +"="+  num*i + "<br>");	}
+
+
+//TASK # 05
+// var arr=["apple","banana","mango","orange","strawberry"];
+// for(let i=0;i<arr.length;i++)
+// {	document.write("<br>Element at index " + i +" is "+ arr[i]);	}
+
+
+//TASK # 06
+//a.
+// document.write("counting:");
+// for(let i=1;i<=15;i++)
+// { document.write(i + " ") }
+
+//b.
+// document.write("<br>reverse counting:");
+// for(let i=10;i>=1;i--)
+// { document.write(i + " "); }
+
+//c.
+// document.write("<br>Even:");
+// for(let i=0;i<=20;i=i+2)
+// { document.write(i + " "); }
+
+//d.
+// document.write("<br>Odd:");
+// for(let i=1;i<=20;i=i+2)
+// { document.write(i + " "); }
+
+//e.
+// document.write("<br>Series:");
+// for(let i=2;i<=20;i=i+2)
+// { document.write(i + "k "); }
+
+
+//TASK # 07
+// var a = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var input=prompt("enter your item name");
+// var index=0;
+// for(let i=0;i<a.length;i++)
+// 	{		if(a[i]===input){
+// 			index=i;
+// 	}				}
+// if(index==0)
+// 	{alert("your item is not present.");
+// }else alert("your item is present at index no :"+index);
+
+
+//TASK # 08
+// var arr=[100,60,30,70,10];
+// var larg=arr[0];
+// for(let i=1;i<arr.length;i++)
+// {    if(larg<arr[i]){
+// 	larg=arr[i];
+// } 	}
+// document.write("the largest number in array is :"+larg);
+
+
+//TASK # 09
+// var arr=[100,60,30,70,10];
+// var small=arr[0];
+// for(let i=1;i<arr.length;i++)
+// {    if(small>arr[i]){
+// 	small=arr[i];
+// } 	}
+// document.write("the smallest number in array is :"+small);
+
+
+//TASK # 10
+// for(let i=5;i<=100;i=i+5)
+// {document.write(i + " , ");}
+
+// xxxxx---------------------xxxxxxx---------------------------xxxxx
